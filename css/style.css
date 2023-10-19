@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.container {
+    background: blueviolet url("https://sklc-tinymce-2021.s3.amazonaws.com/comp/2023/04/full-stack%20web%20development_1681290664.png") no-repeat center center;
+    background-size: contain;
+    background-blend-mode: luminosity;
+    height: 100vh;
+}
+:is(h2, #box1) {
+    background-color: rgb(31, 31, 32, .8);
+    width: fit-content;
+    text-shadow: .2vw .4vw .1vw rgba(38, 99, 38, 0.7);
+}
+#box1 {
+    position: relative;
+    left: 78px;
+    top: 12px;
+    border: 2px solid;
+    padding-inline: 12px;
+}
+#box2 {
+    position: sticky;
+    top: 0;
+    border: 2px dotted greenyellow;
+    background-color: rgb(31, 31, 32, .8);
+}
+#box3 {
+    position: relative;
+    border: 2px dotted rgb(54, 145, 165);
+    background-color: rgba(42, 153, 193, 0.8);
+}
+#posAbsolute {
+    position: absolute;  
+    right: 0;
+    background-color: rgba(178, 148, 226, 0.8);
+    box-shadow: inset 1vw .3vw 1vw yellowgreen;
+}
